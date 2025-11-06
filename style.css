@@ -14,11 +14,11 @@ body{
 @media (min-width: 320px) and (max-width: 768px) {
 
   body{
-    background-color: #393E46;
+    background-color: #16311d;
   }
 
   .header{
-    background-color: rgba(34, 40, 49, 0.8);
+    background-color: #346f44;
     width: 100vw;
     height: 7vh;
     position: fixed;
@@ -41,7 +41,7 @@ body{
   top: 0.5em;
   position: relative;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #DFD0B8;
+  color: #FEF3E2;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 15px;
@@ -75,7 +75,6 @@ nav a:hover::after {
   }
 
   .hero{
-  color: #DFD0B8;
   position: relative;
   justify-self: center;
   top: 15em;
@@ -86,28 +85,22 @@ nav a:hover::after {
   font-family: 'Spectral','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  /* .hero {
-  position: relative;
-  top: 20em;
-  align-items: center;
-  text-align: center;
-  justify-self: center;
-} */
 
 .hero h1{
-  color: #DFD0B8;
+  color: #FEF3E2;
   font-size: 60px;
 }
 
 .hero span {
   font-size: 60px;
   font-family: 'Spectral', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #90eaba;  
+  color: #FAB12F; 
+  text-shadow:0 0 2px #FAB12F; 
 }
 
 
 .hero h3 {
-  color: #D4C5B9;
+  color: #EFE9E3;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 13px;
@@ -118,16 +111,16 @@ nav a:hover::after {
   gap: 25px;
   position: relative;
   justify-content: center;
-  top: 32em;
+  top: 30em;
   left: 0;
 }
 
 .social-media img
 {
-  height: 2.2em;
-  width: 2.2em;
+  height: 2.4em;
+  width: 2.4em;
   border-radius: 50%;
-  box-shadow: 0 0 10px#0f0f1e;
+  box-shadow: 0 0 14px#000000;
 }
 
 #gmail img:hover,
@@ -137,7 +130,7 @@ nav a:hover::after {
 #linkedin img:hover {
   transform: translateY(-6px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7),
-    0 0 15px rgba(0, 168, 232, 0.3);
-  color: #00A8E8;
+    0 0 15px rgba(27, 92, 118, 0.3);
+  color: #000608;
   transition: 0.15s;
 }
